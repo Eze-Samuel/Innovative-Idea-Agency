@@ -1,0 +1,47 @@
+.links{
+    display: flex;
+    align-items: 10px;
+    gap: 10px;
+}
+
+.logout{
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: var(--text);
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+}
+
+.menuButton,
+.mobileLinks{
+   display: none;
+}
+
+@media (max-width : 768px){
+    .links{
+        display: none;
+    }
+
+    .menuButton{
+        display: block;
+        cursor: pointer;
+    }
+
+    .mobileLinks{
+        position: absolute;
+        top: 100px;
+        right: 0;
+        width: 50%;
+        height: calc(100vh - 100px);
+        background-color: var(--bg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+}

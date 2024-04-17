@@ -1,0 +1,4 @@
+types of layout
+.loading
+.error
+.not-found
