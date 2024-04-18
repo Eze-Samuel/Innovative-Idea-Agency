@@ -1,6 +1,6 @@
-import PostCard from "@/components/postCard/postCard";
+/* import PostCard from "@/components/postCard/postCard";
 import styles from "./blog.module.css";
-//import { getPosts } from "@/lib/data";
+import { getPosts } from "@/lib/data";
 
 // FETCH DATA WITH AN API
 const getData = async () => {
@@ -32,4 +32,4 @@ const BlogPage = async () => {
   );
 };
 
-export default BlogPage;
+export default BlogPage; */

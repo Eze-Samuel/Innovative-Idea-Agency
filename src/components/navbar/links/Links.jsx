@@ -2,6 +2,7 @@
 import { useState } from "react";
 import styles from "./links.module.css"
 import NavLink from "./navLink/navLink"
+import { RxHamburgerMenu } from "react-icons/rx";
 
 const links = [
     {
@@ -16,10 +17,7 @@ const links = [
         title: "Contacts",
         path: "/contact",
     },
-    {
-        title: "Blog",
-        path: "/blog",
-    },
+    
 ];
 
 const Links = () => {
@@ -43,7 +41,9 @@ const Links = () => {
                         <NavLink item={{title :"login", path:"/login"}} />
                     )}
             </div>
-            <button className={styles.menuButton} onClick={()=> setOpen((prev)=>!prev)}>Menu</button>
+            <button className={styles.menuButton} onClick={()=> setOpen((prev)=>!prev)}>
+                <RxHamburgerMenu />
+            </button>
             {
                 open && 
                 <div className={styles.mobileLinks }>

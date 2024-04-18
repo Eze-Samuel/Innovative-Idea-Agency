@@ -28,8 +28,21 @@
 
     .menuButton{
         display: block;
+        background-color: transparent;
+        border: none;
         cursor: pointer;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.3s ease;
     }
+
+    .menuButton svg {
+        width: 34px;
+        height: 34px;
+        fill: var(--text);
+       }
 
     .mobileLinks{
         position: absolute;
