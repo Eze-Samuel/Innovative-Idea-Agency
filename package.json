@@ -1,5 +1,5 @@
 {
-  "name": "next",
+  "name": "next14starter",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,14 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "mongoose": "^8.3.2",
-    "next": "14.1.4",
+    "bcryptjs": "^2.4.3",
+    "install": "^0.13.0",
+    "mongoose": "^8.0.0",
+    "next": "^14.2.2",
+    "next-auth": "^5.0.0-beta.3",
+    "npm": "^10.2.5",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.1.0"
   },
   "devDependencies": {
     "eslint": "^8",
-    "eslint-config-next": "14.1.4"
+    "eslint-config-next": "14.0.4"
+  },
+  "resolutions": {
+    "oidc-token-hash": "5.0.1"
   }
 }
